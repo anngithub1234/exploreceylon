@@ -169,6 +169,7 @@ footer ul{
 table{
     border: none;
     background-image: url(images/bgtab.webp);
+    width:100%;
     
 }
 table ul{
