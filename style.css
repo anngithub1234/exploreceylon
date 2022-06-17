@@ -165,10 +165,11 @@ footer ul{
 #wild p{
     text-align: justify;
 }
+
 table{
-    width: 100%;
     border: none;
     background-image: url(images/bgtab.webp);
+    
 }
 table ul{
     list-style-type: none;
@@ -179,7 +180,6 @@ table th{
     background-color: #3f9c3a; 
     color: #fff;
 }
-
 
 table td{
     border-radius: 20px;
@@ -410,7 +410,6 @@ div#slider figure {
     
 }
    
-
 #raftb { 
     width: 390px; 
     height: 300px;
@@ -535,9 +534,9 @@ div#slider figure {
     border-radius: 25px;
     border: none;
     padding: 5px;
-    margin: 5px;
+    margin: 2px;
     background-color:#1cc44e;
-    width: 200px;
+    width: 100%;
     font-size: 17px;
 }
 .sq button:hover{
@@ -585,6 +584,11 @@ div#slider figure {
 .out{
     border: solid #0d4abc;
     margin: 2px;
+}
+#abt p{
+    text-align:center;
+    margin: 3px;
+
 }
 
 
@@ -649,15 +653,15 @@ div#slider figure {
         padding: 0px;
     }
     #linkk{
-        width: 100% ;
-        
+        width: 100% ;   
     }
     #linkk img{
         width: 100%;
         padding: 0px;
         margin:1px
     }
+    table{
+        max-width: 100%;
+
+    }
 }    
-
-
-
