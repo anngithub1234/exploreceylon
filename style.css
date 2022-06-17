@@ -211,13 +211,13 @@ tfoot td{
     font-size: 1em;
     border-radius: 25px;
     text-align: justify;
-    width: 410px;
+    max-width: 410px;
     padding: 5px; 
 }
 .box img{
     padding: 0;
     border: 2px;
-    width: 401px;
+    max-width: 401px;
     height: 300px;   
 }
 .box img:hover{
@@ -406,13 +406,13 @@ div#slider figure {
     font-size: 1em;
     border-radius: 25px;
     text-align: justify; 
-    width: 410px;
+    max-width: 400px;
     padding: 5px;
     
 }
    
 #raftb { 
-    width: 390px; 
+    max-width: 390px; 
     height: 300px;
     background: url(images/reft.webp) center center no-repeat;
     background-size:cover; 
@@ -421,7 +421,7 @@ div#slider figure {
         
 #raftn {
     height:300px;
-    width: 390px;
+    max-width: 390px;
     background:url(images/raft2.webp) no-repeat center center;
     transition-property: opacity;
     transition-duration: 1s;
@@ -434,7 +434,7 @@ div#slider figure {
 }
 
 #boatb { 
-    width: 390px; 
+    max-width: 390px; 
     height: 300px;
     background: url(images/boat2.webp) center center no-repeat;
     background-size:cover; 
@@ -443,7 +443,7 @@ div#slider figure {
             
 #boatf {
     height:300px;
-    width: 390px;
+    max-width: 390px;
     background:url(images/boat.webp) no-repeat center center;
     transition-property: opacity;
     transition-duration: 1s;
@@ -454,7 +454,7 @@ div#slider figure {
     opacity: 0;
 } 
 #tukb { 
-    width: 390px; 
+    max-width: 390px; 
     height: 300px;
     background: url(images/tukk2.webp) center center no-repeat;
     background-size:cover; 
@@ -463,7 +463,7 @@ div#slider figure {
                 
 #tukf {
     height:300px;
-    width: 390px;
+    max-width: 390px;
     background:url(images/tukk3.webp) no-repeat center center;
     transition-property: opacity;
     transition-duration: 1s;
@@ -518,14 +518,14 @@ div#slider figure {
     margin: .8em;
     font-size: 1em;
     text-align: justify; 
-    width: 300px;
+    max-width: 150px;
     padding: 1px;
    
 }
 .sq img{
     padding: 0;
     border: 2px;
-    width: 200px;
+    max-width: 145px;
     height: 200px;
 }
 .sq p{
