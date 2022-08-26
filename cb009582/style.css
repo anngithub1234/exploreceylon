@@ -1,0 +1,701 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header,footer{
+    padding:1em;
+    background-color: #143c86;
+    color: white;
+}
+header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font: optional;color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+footer a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+footer ul{
+    list-style-type: none;
+}
+#social button{
+    padding: 2;
+}
+.mainNav{
+    position: sticky;
+    top: 0;  
+}
+.mainNav ul{
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+}
+.mainNav li{
+    flex-grow: 1;
+    width: calc(25% -.2em);
+    border: .1em  ;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.nav text{
+    padding-left: 60px;
+}
+.mainNav a{
+    background-repeat: no-repeat ;
+    background-size: 40px auto;
+    background-position: .1em center;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    min-height: 50px;
+    line-height: 50px;
+}
+.mainNav a:hover{
+    background-color: #143c86;
+}
+
+/*A paragaraph abaout Sri Lanka for the home page*/
+#containerp{
+    text-align: justify;
+}
+.container button{
+    padding: 5px;
+    margin: 3px;
+}
+.container img{
+    width: 100%;
+    height: 600px;
+}
+
+#linkk img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 0px;
+    border: 1px;
+}
+#containerlist{
+    padding: 0;
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    max-width: 150px;
+}
+#linkk li{
+    list-style-type:square;
+}
+#linkk a{
+    text-decoration:  none;
+    color: #000;  
+}
+#linkk{
+    background-color: #cac8cf;
+    border: solid #ffff 1px;
+    widows:20%;
+    margin: 1em;
+    font-size: 15px; 
+    width: 200px;
+    padding: 1px;
+    text-align: center;
+}
+
+/* grid in the home page to show some images of */
+.column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2;
+    grid-area:500px;  
+}
+.column img {
+    border-radius: 25px;
+    border: 1px;
+    width: 200px;
+    height: 190px;
+    padding: 2px;
+    margin: 3px;
+}
+.column img:hover{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2); 
+}
+
+/*footer scoial media icons*/
+#social a{
+    align-content: center;
+}
+.facebook img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.inta img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.twitter img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.youtube img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#social p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+/*css for the wildlife page*/
+#wild img{
+    max-width: 470px;
+    max-height: 315px;
+    border-radius: 25px;
+    padding: 1px;
+    border: 2px;
+}
+#wild p{
+    text-align: justify;
+}
+
+table{
+    border: none;
+    background-image: url(images/bgtab.webp);
+    width:100%;
+    
+}
+table ul{
+    list-style-type: none;
+}
+table th{
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #3f9c3a; 
+    color: #fff;
+}
+
+table td{
+    border-radius: 20px;
+    margin: 1px;
+    color: #ffff;
+    border: solid #000;
+}
+tfoot td{
+    background-color: #61b153;
+    padding: 8px;
+}
+
+/* css for beaches*/
+/* flex-to have columns*/
+#coast{
+    padding: 0px;
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.box{
+    background-color:#ceeefb;
+    border: solid #fff 1px;
+    widows: 20%;
+    margin: 1em;
+    font-size: 1em;
+    border-radius: 25px;
+    text-align: justify;
+    max-width: 410px;
+    padding: 5px; 
+}
+.box img{
+    padding: 0;
+    border: 2px;
+    max-width: 401px;
+    height: 300px;   
+}
+.box img:hover{
+transform: scale(1.1,1.1);
+-webkit-transform: scale(1.1,1.1); 
+}
+.box text{
+    padding: 10px;
+    margin: 5px;
+    text-indent: 10px;
+}
+.box h3,h4{
+    text-align: center;
+}
+#coast button{
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    background-color:#2196F3;
+    width: 200px;
+    align-items: center;
+    align-content: center;
+    font-size: 17px;
+}
+#coast button a{
+    text-decoration: none;
+    color: rgb(249, 245, 245); 
+}
+#coast button:hover{
+    background-color: #2821f3;
+}
+
+/*purchase css*/
+* {
+box-sizing: border-box;
+}
+.roww {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+.col-50 {
+    -ms-flex: 50%; 
+    flex: 50%;
+}
+.col-75 {
+    -ms-flex: 75%; 
+    flex: 75%;
+}
+.col-50,.col-75 {
+    padding: 0 16px;
+}
+.contain {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgb(165, 198, 234);
+    border-radius: 3px;
+}
+
+.roww input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.row label {
+    margin-bottom: 10px;
+    display: block;
+}
+.row .btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.btn:hover {
+    background-color: #2821f3;
+}
+.btn a {
+    color: #2196F3;
+}
+hr {
+    border: 1px solid lightgrey;
+}
+
+/* Responsive layout - when the screen is less than 800px */
+@media screen and (max-width: 800px) {
+    .roww {
+    flex-direction: column-reverse;
+    }
+    .col-25 {
+    margin-bottom: 20px;
+    }
+    #coast{
+        flex-direction: column-reverse;
+    }
+    .box{
+        width: 100%;
+    }
+    .box img{
+        width: 100%;
+    }
+}
+
+/*ccs for heritage site 1*/
+#tooth p{
+    text-align: justify;
+}
+.slideshow{
+    position: relative;
+    box-sizing: content-box;
+    display: inline-block;
+    padding: 1px 1px 2px;
+    background: #fff;
+    max-width: 1500px;
+    max-height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+div#slider { overflow: hidden; }
+div#slider figure img { width: 15%; float: left; }
+div#slider figure { 
+    position: relative;
+    width: 550%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 25s sliding ease infinite; 
+}
+.bar{
+    width: 100%;
+    max-width: 720px;
+    height: 6px;
+    background: #ffff;
+    position: absolute;
+    bottom: 0;
+    animation: indicating 5s ease infinite;  
+}
+@keyframes sliding{
+    0%{left: 0%; }
+    20%{left: -100%;}
+    40%{left: -200%;}
+    60%{left: -300%;}
+    80%{left: -400%;}
+    100%{left: 0%;}
+}        
+@keyframes indicating{
+    from{
+        left: -100%;
+    }
+    to{
+        left: 0;
+    }
+} 
+
+/*css acivity page*/
+#acty{
+    padding: 0;
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#acty h2{
+    text-align: center;
+}
+#acty h4, p{
+    text-align: justify;
+
+}
+.rec{
+    background-color: #ceeefb;
+    border: solid #ffff 1px;
+    widows:20%;
+    margin: 1em;
+    font-size: 1em;
+    border-radius: 25px;
+    text-align: justify; 
+    max-width: 400px;
+    padding: 5px;
+    
+}
+   
+#raftb { 
+    max-width: 390px; 
+    height: 300px;
+    background: url(images/reft.webp) center center no-repeat;
+    background-size:cover; 
+    margin:0 auto;
+}
+        
+#raftn {
+    height:300px;
+    max-width: 390px;
+    background:url(images/raft2.webp) no-repeat center center;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    
+}
+
+#raftn:hover{
+    opacity: 0;
+}
+
+#boatb { 
+    max-width: 390px; 
+    height: 300px;
+    background: url(images/boat2.webp) center center no-repeat;
+    background-size:cover; 
+    margin:0 auto;
+}
+            
+#boatf {
+    height:300px;
+    max-width: 390px;
+    background:url(images/boat.webp) no-repeat center center;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    
+}
+#boatf:hover{
+    opacity: 0;
+} 
+#tukb { 
+    max-width: 390px; 
+    height: 300px;
+    background: url(images/tukk2.webp) center center no-repeat;
+    background-size:cover; 
+    margin:0 auto;
+}
+                
+#tukf {
+    height:300px;
+    max-width: 390px;
+    background:url(images/tukk3.webp) no-repeat center center;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-delay: 1s;
+
+}
+#tukf:hover{
+    opacity: 0;
+}
+#acty button{
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    background-color:#2196f3;
+    width: 200px;
+    font-size: 17px;
+    
+}
+#acty button a{
+    text-decoration: none;
+    color: rgb(249, 245, 245);
+}
+#acty button:hover{
+    background-color: #2821f3;
+}
+#pro h4{
+    text-align: justify;
+}
+#redirect button a{
+    text-decoration: none;
+    color: #ffff;
+}
+#redirect button{
+    background-color: #3e3c88;
+    border: 1px;
+}
+
+/*css for purchase*/
+#shop{
+    padding: 1px;
+    margin: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 600px;
+    
+}
+.sq {
+    background-color: #b0fcb5;
+    border: solid #ffff 1px;
+    widows:20%;
+    margin: .8em;
+    font-size: 1em;
+    text-align: justify; 
+    max-width: 150px;
+    padding: 1px;
+   
+}
+.sq img{
+    padding: 0;
+    border: 2px;
+    max-width: 145px;
+    height: 200px;
+}
+.sq p{
+    text-align: center;
+}
+.sq button{
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+    margin: 2px;
+    background-color:#1cc44e;
+    width: 100%;
+    font-size: 17px;
+}
+.sq button:hover{
+    background-color: #128133;
+}
+#shmore{
+    padding: 1;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    max-width: 600px;
+    margin-top: 1px;
+}
+#frd{
+    padding: 1;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    max-width: 600px;
+    margin-top: 1px;
+}
+.place{
+    background-color: #1cc44e;
+    border: solid #ffff 1px;
+    widows:20%;
+    margin: .2em;
+    font-size: 25px;
+    text-align: justify; 
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    
+}
+.place a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.donn{
+    background-color: #78cdfe;
+    border: solid #ffff 1px;
+    widows:20%;
+    margin: .2em;
+    font-size: 25px;
+    text-align: justify; 
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15%;
+}
+.donn a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+/* css for about us pg*/
+#abt img{
+    padding: 4px;
+    margin: 5px;
+    max-width: 400px;
+
+}
+.cont a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+.cont li{
+    list-style-type: none;
+}
+.out{
+    border: solid #0d4abc;
+    margin: 2px;
+}
+#abt p{
+    text-align:center;
+    margin: 3px;
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #acty{
+        flex-direction: column;
+    }
+    .rec{
+        width: 100%;
+    }
+    #tukb, #tukf{
+        width: 100%;
+    }
+    #boatb, #boatf{
+        width: 100%;
+    }
+    #raftb, #raftn{
+        width:100%
+    }
+    #shop{
+        flex-direction: column;
+        width: 100%;
+    }
+    .sq{
+        width: 100%;
+    }
+    .sq img{
+        width: 100%;
+    }
+    #shmore{
+        flex-direction: column;
+        width: 100%;
+    }
+    .place{
+        width: 100%;
+    }
+    #wild img{
+        width: 100%;
+    }
+    #wild iframe{
+        width: 100%;
+    }
+    .tabb table{
+        max-width:100%;
+    }
+    
+    .column {
+        grid: 100%;
+        max-width: 100%;
+    }
+    .column img{
+        width: 100%;
+    }
+    #abt img{
+        width: 100%;
+    }
+    #containerlist{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding: 0px;
+    }
+    #linkk{
+        width: 100% ;   
+    }
+    #linkk img{
+        width: 100%;
+        padding: 0px;
+        margin:1px
+    }
+    table{
+        max-width: 100%;
+
+    }
+}    

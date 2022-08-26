@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="This is a site about Sri Lanka Tourism">
+      <title>TravelLankaBuyTickets</title>
+      <!--link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"-->
+      <link rel="stylesheet" href="tickets.css">
+      <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+      <link rel="manifest" href="images/site.webmanifest">
+      <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="msapplication-config" content="images
+</head>
+<body>
+
+
+<form class="activitiesform">
+<section>
+<div class="wrap">
+    <div class="title">
+     Purchase ticket
+    </div>
+
+    <section>
+      <div class="row">
+          <section class="column">
+              <h2>
+                  Local Pass
+              </h2>
+              <br>
+              <p>
+                LKR 5000 - Adult<br>
+                LKR 2500 - Child
+              </p>
+  
+          </section>
+          <br>
+          <section class="column">
+              <h2>
+                  Foreign Pass
+              </h2>
+              <br>
+              <p>
+                LKR 1000 - Adult<br>
+                LKR 500 - Child  
+              </p>
+          </section>
+          <br>
+          <section class="column">
+              <h2>
+                  Annual Pass
+              </h2>
+              <br>
+              <p>
+                15000 - Foreign<br>
+                LKR 4500 - Local
+              </p>
+          </section>
+        
+      </div>
+      <p align="center" >For Children under age 3, Entrance free</p><br>
+    </section>
+  
+  
+  
+  
+  
+
+
+
+
+    <div class="form">
+        <div class="inputfield">
+            <label>Ticket type</label>
+            <div class="custom_select">
+              <select name="region" id="region" required>
+                <option value="" selected disabled>Select your region</option>
+                <option value="foreign">Foreign</option>
+                <option value="local">Local</option>
+            </select>
+            </div>
+         </div>
+         
+         <div class="inputfield">
+            <label>pass type</label>
+            <div class="custom_select">
+              <select name="pass-type" id="pass-type" required>
+                <option value=""selected disabled>Select your pass type</option>
+                <option value="adult">Adult</option>
+                <option value="child">Child</option>
+                <option value="annual">Annual</option>
+            </select>
+            </div>
+         </div>
+        <div class="inputfield">
+          <label for="num">Enter number of passes</label>
+                <input id='num' type="number" min="0" required>
+       </div>  
+        
+      
+      <div class="inputfield">
+        
+        <label> Duration</label>
+        <input required type="radio" name="duration-select" id="3h">
+        <label for="3h">3 Hour</label>
+        <input type="radio" name="duration-select" id="halfday">
+        <label for="halfday">Half Day</label>
+        <input type="radio" name="duration-select" id="fullday">
+        <label for="fullday">Full Day</label>
+        <input type="radio" name="duration-select" id="twodays">
+        <label for="twodays">2 Days</label>
+      </div> 
+
+      <div class="inputfield">
+      <label for="foodtoken">Food Token</label>
+                <input type="checkbox" id="foodtoken" value="foodtoken" >
+              </div> 
+
+              <div class="inputfield">
+          <label > current cost</label>    <p id="currenttotal" >   0   </p>
+            </div>
+            <div id="vvv" align="center" >
+            <table border="2px">
+              <thead>
+                  <tr>
+                   <th>Region</th>
+                   <th>Type</th>
+                   <th>Number</th>
+                   <th>Duration</th>
+                   <th>Extras</th>
+                   <th>Total</th>
+                  </tr>
+              </thead>
+              <tbody id="ordertableoutput">
+                  <tr>
+                      <td>---</td>
+                      <td>---</td>
+                      <td>---</td>
+                      <td>---</td>
+                      <td>---</td>
+                      <td>---</td>
+                  </tr>
+              </tbody>
+          </table><br>
+          </div>
+
+
+       <div class="inputfield">
+        <button id="orderfavorite" class="btn" >Order Favorite</button >
+        <br><br>
+        <button id="addtofavorite" class="btn"  >Add to Favorite</button>
+    </div>
+      <div class="inputfield">
+        <button id="addtoorder" class="btn">Add to Order</button>
+      </div>
+      <div class="inputfield">
+        <button id="placeorder" class="btn">Place Order</button>
+      </div>
+      <div class="inputfield">
+        <button id="checkloyaltybtn" class="btn">check loyality</button>
+      </div>
+    </div><br><br>
+   
+  
+  <p  align ="center" id="totaloverall">Total:</p>
+  <section id="redirect">
+    <button><a href="activities.html">Back</a></button></section>
+</div>	
+
+</section>
+
+
+</form>	
+
+<script src="main.js"></script>
+</body>
+</html>

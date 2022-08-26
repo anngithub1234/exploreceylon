@@ -1,0 +1,96 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="This is a site about Sri Lanka Tourism">
+      <title>TravelLanka-Donations</title>
+      <!---link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png"-->
+      <link rel="stylesheet" href="donation.css">
+      <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+      <link rel="manifest" href="images/site.webmanifest">
+      <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="msapplication-config" content="images/browserconfig.xml">
+      <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+      <div class="form-signup" id="singup">
+
+        
+        <form method="get" onsubmit="return singup()">
+            <h1>Donation Form</h1>
+           <section>
+            <div class="don_1">
+              <div>
+                <label for="firstname">First Name: <input type="text" class="fname" name="firstname" placeholder="Enter First Name"></label><br>
+                <label for="lastname">Last Name: <input type="text" class="lname" name="lastname" placeholder="Enter Last Name"></label><br>
+                <label for="email">Email: <input type="email" class="email" name="email" placeholder="Enter Email Address"></label><br>
+              </div>
+              
+          </div>
+          
+          <h3>Select Donation values</h3>
+            <br>
+            <div class="don_1">
+              <div>
+                <input type="radio" name="money" value="100">100LKR<br>
+                <input type="radio" name="money" value="250">250LKR<br>
+                <input type="radio" name="money" value="500">500LKR<br>
+              </div>
+              <div>
+                <input type="radio" name="money" value="1000">1000LKR<br>
+                <input type="radio" name="money" value="2500">2500LKR<br>
+                <input type="radio" name="money" value="5000">5000LKR<br>
+                <input type="radio" name="money" value="10000">10000LKR<br>
+              </div>
+              
+            </div>
+              
+             
+           
+            <div class="don_1">
+              <div>
+                <label for="cardHolder">cardHolder</label>
+                <input type="text" class="hName" name="firstname" placeholder="Enter First Name">
+                <br>
+                <label for="cardNumber">cardNumber:</label>
+                <input type="text" class="d_cardNum" maxlength="16" class="card-number-input"><br>
+              </div>
+              
+          </div>
+            
+           <div class="don_1">
+            <div>
+              <label for="date">Date:</label>
+              <input type="date" class="date"><br>
+              <label for="cvv">cvv</label>
+              <input type="text" class="cvv" maxlength="3"><br>
+            </div>
+             
+           </div> 
+           </section>
+        
+         <label for="query">Comment: </label><br>
+         <textarea name="query" class="query" rows="5" cols="15"></textarea><br>
+         
+         <div>
+            <input type="submit" name="submit" value="Submit">
+            <input type="reset" name="reset" value="Reset">
+           
+            <input type="button" onclick="myFunction()" value="donation">
+            
+       
+         </div>
+          
+          
+         <section id="redirect">
+         <button><a href="purchase.html">Back</a></button></section>
+          
+        </form>
+      </div>
+      <script src="donation.js"></script>
+    </body>
+</html>
