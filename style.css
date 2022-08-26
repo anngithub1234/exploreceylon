@@ -501,6 +501,7 @@ div#slider figure {
     background-color: #3e3c88;
     border: 1px;
 }
+
 /*css for purchase*/
 #shop{
     padding: 1px;
@@ -552,8 +553,17 @@ div#slider figure {
     max-width: 600px;
     margin-top: 1px;
 }
+#frd{
+    padding: 1;
+    margin: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    max-width: 600px;
+    margin-top: 1px;
+}
 .place{
-    background-color: #b0fcb5;
+    background-color: #1cc44e;
     border: solid #ffff 1px;
     widows:20%;
     margin: .2em;
@@ -562,11 +572,34 @@ div#slider figure {
     width: 400px;
     padding: 5px;
     text-align: center;
+    
 }
 .place a{
     text-decoration: none;
     color: #000;
 }
+
+
+.donn{
+    background-color: #78cdfe;
+    border: solid #ffff 1px;
+    widows:20%;
+    margin: .2em;
+    font-size: 25px;
+    text-align: justify; 
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15%;
+}
+.donn a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
 /* css for about us pg*/
 #abt img{
     padding: 4px;
