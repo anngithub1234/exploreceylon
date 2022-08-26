@@ -15,9 +15,9 @@ form{
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    background-color:darkturquoise;
+    background-color:rgb(255, 255, 255);
     padding: 25px;
-    border: solid 10px black;
+   
     margin-bottom: 100px;
     margin-left: 100px;
     margin-right: 100px;
@@ -90,4 +90,16 @@ section{
 #redirect button{
     background-color: #3e3c88;
     border: 1px;
+}
+@media screen and (max-width: 800px) {
+    form{
+        max-width:fit-content;   
+    }
+    
+    section{
+    max-width:fit-content;
+    }
+    .don_1{
+        max-width: fit-content;
+    }
 }
